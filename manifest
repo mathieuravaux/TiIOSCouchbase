@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2010 by Your Company
+
+
+# these should not be edited
+name: tiioscouchbase
+moduleid: com.mathieuravaux.ti_ios_couchbase
+guid: 07c1b910-2188-4f2c-848a-5d04894dd786
+platform: iphone
+minsdk: 1.6.1
