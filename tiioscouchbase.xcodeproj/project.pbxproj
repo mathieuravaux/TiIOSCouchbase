@@ -26,6 +26,13 @@
 		24DD6CFA1134B3F500162E58 /* ComMathieuravauxTi_ios_couchbaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComMathieuravauxTi_ios_couchbaseModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.m */; };
+		4E3F2B14134BBD5000AB7D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2B13134BBD5000AB7D2A /* UIKit.framework */; };
+		4E3F2B16134BBD9100AB7D2A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2B15134BBD9100AB7D2A /* libicucore.dylib */; };
+		4E3F2B1D134BBE0B00AB7D2A /* Couchbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3F2B19134BBE0B00AB7D2A /* Couchbase.h */; };
+		4E3F2B1F134BBE0C00AB7D2A /* libMobileCouchbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2B1B134BBE0B00AB7D2A /* libMobileCouchbase.a */; };
+		4E3F2B22134BC61D00AB7D2A /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2B20134BC46000AB7D2A /* libstdc++.6.dylib */; };
+		4E3F2B4E134BE68200AB7D2A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2B4D134BE68200AB7D2A /* libssl.a */; };
+		4E3F2B4F134BE81D00AB7D2A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2B4B134BE45D00AB7D2A /* libcrypto.a */; };
 		AA747D9F0F9514B9006C5449 /* ComMathieuravauxTi_ios_couchbase_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComMathieuravauxTi_ios_couchbase_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +53,14 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComMathieuravauxTi_ios_couchbaseModuleAssets.h; path = Classes/ComMathieuravauxTi_ios_couchbaseModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComMathieuravauxTi_ios_couchbaseModuleAssets.m; path = Classes/ComMathieuravauxTi_ios_couchbaseModuleAssets.m; sourceTree = "<group>"; };
+		4E3F2B13134BBD5000AB7D2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E3F2B15134BBD9100AB7D2A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		4E3F2B19134BBE0B00AB7D2A /* Couchbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Couchbase.h; path = assets/Couchbase.h; sourceTree = "<group>"; };
+		4E3F2B1B134BBE0B00AB7D2A /* libMobileCouchbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobileCouchbase.a; path = assets/libMobileCouchbase.a; sourceTree = "<group>"; };
+		4E3F2B1C134BBE0B00AB7D2A /* MobileCouchbase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileCouchbase.bundle; path = assets/MobileCouchbase.bundle; sourceTree = "<group>"; };
+		4E3F2B20134BC46000AB7D2A /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		4E3F2B4B134BE45D00AB7D2A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = assets/libcrypto.a; sourceTree = "<group>"; };
+		4E3F2B4D134BE68200AB7D2A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComMathieuravauxTi_ios_couchbase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComMathieuravauxTi_ios_couchbase_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComMathieuravauxTi_ios_couchbase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComMathieuravauxTi_ios_couchbase.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +71,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3F2B14134BBD5000AB7D2A /* UIKit.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4E3F2B1F134BBE0C00AB7D2A /* libMobileCouchbase.a in Frameworks */,
+				4E3F2B22134BC61D00AB7D2A /* libstdc++.6.dylib in Frameworks */,
+				4E3F2B16134BBD9100AB7D2A /* libicucore.dylib in Frameworks */,
+				4E3F2B4E134BE68200AB7D2A /* libssl.a in Frameworks */,
+				4E3F2B4F134BE81D00AB7D2A /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,7 @@
 		0867D691FE84028FC02AAC07 /* tiioscouchbase */ = {
 			isa = PBXGroup;
 			children = (
+				4E3F2B1C134BBE0B00AB7D2A /* MobileCouchbase.bundle */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -85,6 +107,12 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E3F2B4D134BE68200AB7D2A /* libssl.a */,
+				4E3F2B4B134BE45D00AB7D2A /* libcrypto.a */,
+				4E3F2B20134BC46000AB7D2A /* libstdc++.6.dylib */,
+				4E3F2B1B134BBE0B00AB7D2A /* libMobileCouchbase.a */,
+				4E3F2B15134BBD9100AB7D2A /* libicucore.dylib */,
+				4E3F2B13134BBD5000AB7D2A /* UIKit.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -93,6 +121,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E3F2B19134BBE0B00AB7D2A /* Couchbase.h */,
 				24DE9E0F11C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComMathieuravauxTi_ios_couchbaseModule.h */,
@@ -120,6 +149,7 @@
 				AA747D9F0F9514B9006C5449 /* ComMathieuravauxTi_ios_couchbase_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComMathieuravauxTi_ios_couchbaseModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComMathieuravauxTi_ios_couchbaseModuleAssets.h in Headers */,
+				4E3F2B1D134BBE0B00AB7D2A /* Couchbase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +240,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = (
+					iphonesimulator,
+					iphoneos,
+				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
@@ -221,8 +255,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ComMathieuravauxTi_ios_couchbase_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/assets\"",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = ComMathieuravauxTi_ios_couchbase;
-				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -230,6 +269,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = (
+					iphonesimulator,
+					iphoneos,
+				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/ComMathieuravauxTi_ios_couchbase.dst;
@@ -237,8 +280,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ComMathieuravauxTi_ios_couchbase_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/assets\"",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = ComMathieuravauxTi_ios_couchbase;
-				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
