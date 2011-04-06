@@ -103,4 +103,19 @@
 	// example property setter
 }
 
+# pragma mark Couchbase startup
+
+-(void)startCouchbase:(id)args
+{
+	NSLog(@"[INFO] calling startCouchbase");
+    [Couchbase startCouchbase:self];
+}
+
+
+-(void)couchbaseDidStart:(NSURL *)serverURL {
+	NSLog(@"CouchDB is Ready, go!");
+    NSDictionary *event = [NSDictionary dictionary];
+    [self fireEvent:@"couchbase_started" withObject:event withSource:self];
+}
+
 @end

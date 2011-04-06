@@ -6,7 +6,9 @@
  */
 #import "TiModule.h"
 
-@interface ComMathieuravauxTi_ios_couchbaseModule : TiModule 
+#import "Couchbase.h"
+
+@interface ComMathieuravauxTi_ios_couchbaseModule : TiModule <CouchbaseDelegate>
 {
 }
 
