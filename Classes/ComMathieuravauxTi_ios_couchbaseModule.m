@@ -113,8 +113,9 @@
 
 
 -(void)couchbaseDidStart:(NSURL *)serverURL {
-	NSLog(@"CouchDB is Ready, go!");
-    NSDictionary *event = [NSDictionary dictionary];
+    NSString * urlAsString = [serverURL absoluteString];
+	NSLog(@"CouchDB is Ready, go! %@", urlAsString);
+    NSDictionary *event = [NSDictionary dictionaryWithObject:urlAsString forKey:@"url"];
     [self fireEvent:@"couchbase_started" withObject:event withSource:self];
 }
 
